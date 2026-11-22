@@ -1,0 +1,11 @@
+psutil>=5.9
+customtkinter>=5.2
+pillow>=10
+requests>=2.31
+# optional (the app still works as text chat without them):
+pyttsx3>=2.90
+SpeechRecognition>=3.10
+sounddevice>=0.4.6        # microphone input (works on Python 3.14; no compiler needed)
+vosk>=0.3.45              # offline "Trix" wake word + offline speech-to-text
+keyring>=24               # keeps your Telegram bot token in Windows Credential Manager
+pystray>=0.19             # the icon by the clock (keeps running when the window is closed)
